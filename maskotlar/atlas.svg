@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 410" role="img" aria-label="Atlas: bilim kurgu asistanı">
+  <defs>
+    <linearGradient id="at-kafa" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D3B52"/><stop offset="1" stop-color="#0C1E2C"/>
+    </linearGradient>
+    <linearGradient id="at-kenar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7DF3EE"/><stop offset="1" stop-color="#2A8FA6"/>
+    </linearGradient>
+    <filter id="at-parilti" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; }
+    #agiz .cubuk { transform-box: fill-box; transform-origin: center; transform: scaleY(.45); } }
+  </style>
+  <g id="maskot">
+    <g class="halka-dis" fill="none" stroke="#4FE3E0" stroke-width="2"><line x1="368" y1="205" x2="382" y2="205" stroke-opacity=".8"/><line x1="367.4" y1="219.6" x2="374.3" y2="220.3" stroke-opacity=".35"/><line x1="365.4" y1="234.2" x2="372.3" y2="235.4" stroke-opacity=".35"/><line x1="362.3" y1="248.5" x2="369" y2="250.3" stroke-opacity=".35"/><line x1="357.9" y1="262.5" x2="364.4" y2="264.9" stroke-opacity=".35"/><line x1="352.3" y1="276" x2="358.6" y2="279" stroke-opacity=".35"/><line x1="345.5" y1="289" x2="357.6" y2="296" stroke-opacity=".8"/><line x1="337.6" y1="301.4" x2="343.4" y2="305.4" stroke-opacity=".35"/><line x1="328.7" y1="313" x2="334.1" y2="317.5" stroke-opacity=".35"/><line x1="318.8" y1="323.8" x2="323.7" y2="328.7" stroke-opacity=".35"/><line x1="308" y1="333.7" x2="312.5" y2="339.1" stroke-opacity=".35"/><line x1="296.4" y1="342.6" x2="300.4" y2="348.4" stroke-opacity=".35"/><line x1="284" y1="350.5" x2="291" y2="362.6" stroke-opacity=".8"/><line x1="271" y1="357.3" x2="274" y2="363.6" stroke-opacity=".35"/><line x1="257.5" y1="362.9" x2="259.9" y2="369.4" stroke-opacity=".35"/><line x1="243.5" y1="367.3" x2="245.3" y2="374" stroke-opacity=".35"/><line x1="229.2" y1="370.4" x2="230.4" y2="377.3" stroke-opacity=".35"/><line x1="214.6" y1="372.4" x2="215.3" y2="379.3" stroke-opacity=".35"/><line x1="200" y1="373" x2="200" y2="387" stroke-opacity=".8"/><line x1="185.4" y1="372.4" x2="184.7" y2="379.3" stroke-opacity=".35"/><line x1="170.8" y1="370.4" x2="169.6" y2="377.3" stroke-opacity=".35"/><line x1="156.5" y1="367.3" x2="154.7" y2="374" stroke-opacity=".35"/><line x1="142.5" y1="362.9" x2="140.1" y2="369.4" stroke-opacity=".35"/><line x1="129" y1="357.3" x2="126" y2="363.6" stroke-opacity=".35"/><line x1="116" y1="350.5" x2="109" y2="362.6" stroke-opacity=".8"/><line x1="103.6" y1="342.6" x2="99.6" y2="348.4" stroke-opacity=".35"/><line x1="92" y1="333.7" x2="87.5" y2="339.1" stroke-opacity=".35"/><line x1="81.2" y1="323.8" x2="76.3" y2="328.7" stroke-opacity=".35"/><line x1="71.3" y1="313" x2="65.9" y2="317.5" stroke-opacity=".35"/><line x1="62.4" y1="301.4" x2="56.6" y2="305.4" stroke-opacity=".35"/><line x1="54.5" y1="289" x2="42.4" y2="296" stroke-opacity=".8"/><line x1="47.7" y1="276" x2="41.4" y2="279" stroke-opacity=".35"/><line x1="42.1" y1="262.5" x2="35.6" y2="264.9" stroke-opacity=".35"/><line x1="37.7" y1="248.5" x2="31" y2="250.3" stroke-opacity=".35"/><line x1="34.6" y1="234.2" x2="27.7" y2="235.4" stroke-opacity=".35"/><line x1="32.6" y1="219.6" x2="25.7" y2="220.3" stroke-opacity=".35"/><line x1="32" y1="205" x2="18" y2="205" stroke-opacity=".8"/><line x1="32.6" y1="190.4" x2="25.7" y2="189.7" stroke-opacity=".35"/><line x1="34.6" y1="175.8" x2="27.7" y2="174.6" stroke-opacity=".35"/><line x1="37.7" y1="161.5" x2="31" y2="159.7" stroke-opacity=".35"/><line x1="42.1" y1="147.5" x2="35.6" y2="145.1" stroke-opacity=".35"/><line x1="47.7" y1="134" x2="41.4" y2="131" stroke-opacity=".35"/><line x1="54.5" y1="121" x2="42.4" y2="114" stroke-opacity=".8"/><line x1="62.4" y1="108.6" x2="56.6" y2="104.6" stroke-opacity=".35"/><line x1="71.3" y1="97" x2="65.9" y2="92.5" stroke-opacity=".35"/><line x1="81.2" y1="86.2" x2="76.3" y2="81.3" stroke-opacity=".35"/><line x1="92" y1="76.3" x2="87.5" y2="70.9" stroke-opacity=".35"/><line x1="103.6" y1="67.4" x2="99.6" y2="61.6" stroke-opacity=".35"/><line x1="116" y1="59.5" x2="109" y2="47.4" stroke-opacity=".8"/><line x1="129" y1="52.7" x2="126" y2="46.4" stroke-opacity=".35"/><line x1="142.5" y1="47.1" x2="140.1" y2="40.6" stroke-opacity=".35"/><line x1="156.5" y1="42.7" x2="154.7" y2="36" stroke-opacity=".35"/><line x1="170.8" y1="39.6" x2="169.6" y2="32.7" stroke-opacity=".35"/><line x1="185.4" y1="37.6" x2="184.7" y2="30.7" stroke-opacity=".35"/><line x1="200" y1="37" x2="200" y2="23" stroke-opacity=".8"/><line x1="214.6" y1="37.6" x2="215.3" y2="30.7" stroke-opacity=".35"/><line x1="229.2" y1="39.6" x2="230.4" y2="32.7" stroke-opacity=".35"/><line x1="243.5" y1="42.7" x2="245.3" y2="36" stroke-opacity=".35"/><line x1="257.5" y1="47.1" x2="259.9" y2="40.6" stroke-opacity=".35"/><line x1="271" y1="52.7" x2="274" y2="46.4" stroke-opacity=".35"/><line x1="284" y1="59.5" x2="291" y2="47.4" stroke-opacity=".8"/><line x1="296.4" y1="67.4" x2="300.4" y2="61.6" stroke-opacity=".35"/><line x1="308" y1="76.3" x2="312.5" y2="70.9" stroke-opacity=".35"/><line x1="318.8" y1="86.2" x2="323.7" y2="81.3" stroke-opacity=".35"/><line x1="328.7" y1="97" x2="334.1" y2="92.5" stroke-opacity=".35"/><line x1="337.6" y1="108.6" x2="343.4" y2="104.6" stroke-opacity=".35"/><line x1="345.5" y1="121" x2="357.6" y2="114" stroke-opacity=".8"/><line x1="352.3" y1="134" x2="358.6" y2="131" stroke-opacity=".35"/><line x1="357.9" y1="147.5" x2="364.4" y2="145.1" stroke-opacity=".35"/><line x1="362.3" y1="161.5" x2="369" y2="159.7" stroke-opacity=".35"/><line x1="365.4" y1="175.8" x2="372.3" y2="174.6" stroke-opacity=".35"/><line x1="367.4" y1="190.4" x2="374.3" y2="189.7" stroke-opacity=".35"/></g>
+    <g id="disli" fill="none" stroke="#4FE3E0" stroke-linecap="round">
+      <circle class="halka-a" cx="200" cy="205" r="156" stroke-width="3" stroke-opacity=".55" stroke-dasharray="120 40 30 40 220 60"/>
+      <circle class="halka-b" cx="200" cy="205" r="146" stroke-width="1.5" stroke-opacity=".35" stroke-dasharray="4 10"/>
+    </g>
+    <g id="ses-dalgasi" fill="none" stroke="#4FE3E0" stroke-width="3">
+      <circle cx="200" cy="205" r="190" stroke-opacity=".5"/>
+    </g>
+    <!-- anten -->
+    <path d="M200,108 V76" stroke="#3B6E86" stroke-width="5" stroke-linecap="round"/>
+    <g id="anten-isik"><circle cx="200" cy="70" r="9" fill="#FFB547" filter="url(#at-parilti)"/></g>
+    <!-- kulak modülleri -->
+    <rect x="80" y="178" width="26" height="62" rx="10" fill="#14324A" stroke="url(#at-kenar)" stroke-width="2"/>
+    <rect x="294" y="178" width="26" height="62" rx="10" fill="#14324A" stroke="url(#at-kenar)" stroke-width="2"/>
+    <rect x="88" y="192" width="10" height="34" rx="5" fill="#4FE3E0" fill-opacity=".55"/>
+    <rect x="302" y="192" width="10" height="34" rx="5" fill="#4FE3E0" fill-opacity=".55"/>
+    <!-- kafa -->
+    <path d="M200,108 C268,108 296,132 298,196 C300,262 276,300 200,302 C124,300 100,262 102,196 C104,132 132,108 200,108 Z"
+          fill="url(#at-kafa)" stroke="url(#at-kenar)" stroke-width="2.5"/>
+    <path d="M140,128 C160,118 240,118 260,128" fill="none" stroke="#7DF3EE" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+    <g class="ledler" fill="#4FE3E0"><circle cx="186" cy="140" r="3"/><circle cx="200" cy="140" r="3"/><circle cx="214" cy="140" r="3"/></g>
+    <!-- vizör -->
+    <rect x="122" y="160" width="156" height="66" rx="33" fill="#03101A" stroke="#4FE3E0" stroke-opacity=".5" stroke-width="2"/>
+    <g id="goz-sol"><rect x="146" y="180" width="40" height="26" rx="13" fill="#7DF3EE" filter="url(#at-parilti)"/></g>
+    <g id="goz-sag"><rect x="214" y="180" width="40" height="26" rx="13" fill="#7DF3EE" filter="url(#at-parilti)"/></g>
+    <rect id="dusunce" x="126" y="164" width="10" height="58" rx="5" fill="#FFB547" fill-opacity=".8"/>
+    <!-- ağız: ekolayzer -->
+    <g id="agiz" fill="#4FE3E0" filter="url(#at-parilti)"><rect class="cubuk" style="--k:0.45" x="140" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.7" x="154" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.9" x="168" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:1.0" x="182" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.85" x="196" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:1.0" x="210" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.9" x="224" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.7" x="238" y="246" width="8" height="34" rx="4"/><rect class="cubuk" style="--k:0.45" x="252" y="246" width="8" height="34" rx="4"/></g>
+    <path d="M160,292 H240" stroke="#4FE3E0" stroke-opacity=".3" stroke-width="2" stroke-linecap="round"/>
+    <g id="soru-isareti">
+      <circle cx="330" cy="98" r="28" fill="#0C1E2C" stroke="#FFB547" stroke-width="2.5"/>
+      <text x="330" y="112" text-anchor="middle" font-family="'Chakra Petch', sans-serif" font-weight="600" font-size="40" fill="#FFB547">?</text>
+    </g>
+    <g id="uyku" font-family="'Chakra Petch', sans-serif" font-weight="600" fill="#7DF3EE">
+      <text x="296" y="112" font-size="20">z</text><text x="314" y="88" font-size="28">z</text><text x="336" y="58" font-size="36">z</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Prizma: geometrik asistan">
+  <defs>
+    <radialGradient id="pz-cekirdek" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#C8FFF7"/><stop offset="1" stop-color="#5FE6D6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pz-hale" cx=".5" cy=".5" r=".5">
+      <stop offset=".5" stop-color="#5FE6D6" stop-opacity=".22"/><stop offset="1" stop-color="#5FE6D6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="pz-parilti" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; } }
+  </style>
+  <g id="maskot">
+    <ellipse class="golge" cx="200" cy="364" rx="80" ry="10" fill="#000" fill-opacity=".28"/>
+    <circle cx="200" cy="196" r="170" fill="url(#pz-hale)"/>
+    <path id="ses-dalgasi" d="M200,68 L310.9,132 L310.9,260 L200,324 L89.1,260 L89.1,132 Z" fill="none" stroke="#86F5E8" stroke-width="3" stroke-linejoin="round" filter="url(#pz-parilti)"/>
+    <g class="yorunge" fill="none" stroke-linecap="round">
+      <ellipse cx="200" cy="196" rx="172" ry="46" transform="rotate(-16 200 196)" stroke="#F5C76B" stroke-opacity=".35" stroke-width="1.5"/>
+      <ellipse class="yorunge-isik" pathLength="100" cx="200" cy="196" rx="172" ry="46" transform="rotate(-16 200 196)" stroke="#FFE3A3" stroke-width="5" stroke-dasharray="5 95"/>
+      <ellipse cx="200" cy="196" rx="150" ry="38" transform="rotate(24 200 196)" stroke="#F5C76B" stroke-opacity=".25" stroke-width="1.2"/>
+      <ellipse class="yorunge-isik ters" pathLength="100" cx="200" cy="196" rx="150" ry="38" transform="rotate(24 200 196)" stroke="#FFE3A3" stroke-width="4" stroke-dasharray="4 96"/>
+    </g>
+    <g id="disli">
+      <g class="mucevher" stroke="#E6FFFB" stroke-opacity=".35" stroke-width="1" stroke-linejoin="round"><path class="yuz" style="--i:0" d="M200,84 L297,140 L228,147.5 Z" fill="#68B8C6"/><path class="yuz" style="--i:1" d="M228,147.5 L256,196 L297,140 Z" fill="#518BAD"/><path class="yuz" style="--i:2" d="M228,147.5 L256,196 L200,196 Z" fill="#62ADC0"/><path class="yuz" style="--i:3" d="M297,140 L297,252 L256,196 Z" fill="#3C6095"/><path class="yuz" style="--i:4" d="M256,196 L228,244.5 L297,252 Z" fill="#2D4284"/><path class="yuz" style="--i:5" d="M256,196 L228,244.5 L200,196 Z" fill="#4A7DA5"/><path class="yuz" style="--i:6" d="M297,252 L200,308 L228,244.5 Z" fill="#293A80"/><path class="yuz" style="--i:7" d="M228,244.5 L172,244.5 L200,308 Z" fill="#314A88"/><path class="yuz" style="--i:8" d="M228,244.5 L172,244.5 L200,196 Z" fill="#4D82A8"/><path class="yuz" style="--i:9" d="M200,308 L103,252 L172,244.5 Z" fill="#426D9C"/><path class="yuz" style="--i:10" d="M172,244.5 L144,196 L103,252 Z" fill="#599AB5"/><path class="yuz" style="--i:11" d="M172,244.5 L144,196 L200,196 Z" fill="#67B7C5"/><path class="yuz" style="--i:12" d="M103,252 L103,140 L144,196 Z" fill="#6EC5CD"/><path class="yuz" style="--i:13" d="M144,196 L172,147.5 L103,140 Z" fill="#7DE3DE"/><path class="yuz" style="--i:14" d="M144,196 L172,147.5 L200,196 Z" fill="#7EE6DF"/><path class="yuz" style="--i:15" d="M103,140 L200,84 L172,147.5 Z" fill="#81EBE2"/><path class="yuz" style="--i:16" d="M172,147.5 L228,147.5 L200,84 Z" fill="#79DBDA"/><path class="yuz" style="--i:17" d="M172,147.5 L228,147.5 L200,196 Z" fill="#7CE1DD"/></g>
+    </g>
+    <circle id="agiz" data-agiz="olcek" cx="200" cy="196" r="34" fill="url(#pz-cekirdek)"/>
+    <g id="anten-isik"><path d="M200,46 L210,60 L200,74 L190,60 Z" fill="#FFE3A3" filter="url(#pz-parilti)"/></g>
+    <g id="soru-isareti"><circle cx="330" cy="92" r="28" fill="#141B44" stroke="#F5C76B" stroke-width="2.5"/><text x="330" y="106" text-anchor="middle" font-family="Sora, sans-serif" font-weight="600" font-size="40" fill="#FFE3A3">?</text></g>
+    <g id="dusunce" fill="#86F5E8"><path d="M300,97 L306.1,107.5 L293.9,107.5 Z"/><path d="M320,70 L328.7,85 L311.3,85 Z"/><path d="M344,37 L355.3,56.5 L332.7,56.5 Z"/></g>
+    <g id="uyku" font-family="Sora, sans-serif" font-weight="600" fill="#C8FFF7"><text x="298" y="108" font-size="20">z</text><text x="316" y="82" font-size="28">z</text><text x="338" y="50" font-size="36">z</text></g>
+  </g>
+</svg>

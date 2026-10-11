@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Kalkan: siber güvenlik bekçisi">
+  <defs>
+    <linearGradient id="kk-celik" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9D8EE"/><stop offset=".5" stop-color="#8CA3C7"/><stop offset="1" stop-color="#4F6690"/>
+    </linearGradient>
+    <linearGradient id="kk-govde" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5C76A3"/><stop offset="1" stop-color="#2C3E66"/>
+    </linearGradient>
+    <filter id="kk-parilti" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; }
+    #agiz .cubuk { transform-box: fill-box; transform-origin: center; transform: scaleY(.45); }
+    .dusunce-hex { opacity: 0; } }
+  </style>
+  <g id="maskot">
+    <g id="disli" fill="none" stroke="#FFB13B" stroke-width="1.6">
+      <g class="petek"><path d="M382.4,211 L372,217 L361.6,211 L361.6,199 L372,193 L382.4,199 Z" stroke-opacity=".8"/><path d="M369.3,276.8 L358.9,282.8 L348.5,276.8 L348.5,264.8 L358.9,258.8 L369.3,264.8 Z" stroke-opacity=".35"/><path d="M332,332.6 L321.6,338.6 L311.2,332.6 L311.2,320.6 L321.6,314.6 L332,320.6 Z" stroke-opacity=".35"/><path d="M276.2,369.9 L265.8,375.9 L255.4,369.9 L255.4,357.9 L265.8,351.9 L276.2,357.9 Z" stroke-opacity=".35"/><path d="M210.4,383 L200,389 L189.6,383 L189.6,371 L200,365 L210.4,371 Z" stroke-opacity=".8"/><path d="M144.6,369.9 L134.2,375.9 L123.8,369.9 L123.8,357.9 L134.2,351.9 L144.6,357.9 Z" stroke-opacity=".35"/><path d="M88.8,332.6 L78.4,338.6 L68,332.6 L68,320.6 L78.4,314.6 L88.8,320.6 Z" stroke-opacity=".35"/><path d="M51.5,276.8 L41.1,282.8 L30.7,276.8 L30.7,264.8 L41.1,258.8 L51.5,264.8 Z" stroke-opacity=".35"/><path d="M38.4,211 L28,217 L17.6,211 L17.6,199 L28,193 L38.4,199 Z" stroke-opacity=".8"/><path d="M51.5,145.2 L41.1,151.2 L30.7,145.2 L30.7,133.2 L41.1,127.2 L51.5,133.2 Z" stroke-opacity=".35"/><path d="M88.8,89.4 L78.4,95.4 L68,89.4 L68,77.4 L78.4,71.4 L88.8,77.4 Z" stroke-opacity=".35"/><path d="M144.6,52.1 L134.2,58.1 L123.8,52.1 L123.8,40.1 L134.2,34.1 L144.6,40.1 Z" stroke-opacity=".35"/><path d="M210.4,39 L200,45 L189.6,39 L189.6,27 L200,21 L210.4,27 Z" stroke-opacity=".8"/><path d="M276.2,52.1 L265.8,58.1 L255.4,52.1 L255.4,40.1 L265.8,34.1 L276.2,40.1 Z" stroke-opacity=".35"/><path d="M332,89.4 L321.6,95.4 L311.2,89.4 L311.2,77.4 L321.6,71.4 L332,77.4 Z" stroke-opacity=".35"/><path d="M369.3,145.2 L358.9,151.2 L348.5,145.2 L348.5,133.2 L358.9,127.2 L369.3,133.2 Z" stroke-opacity=".35"/></g>
+      <circle class="tarama" cx="200" cy="205" r="156" stroke-opacity=".5" stroke-width="2" stroke-dasharray="40 30 8 30"/>
+    </g>
+    <circle id="ses-dalgasi" cx="200" cy="205" r="192" fill="none" stroke="#FFB13B" stroke-width="3"/>
+    <path d="M108,420 C116,372 150,350 200,348 C250,350 284,372 292,420 Z" fill="url(#kk-govde)" stroke="#22324F" stroke-width="2"/>
+    <path d="M150,420 C156,392 176,376 200,374 C224,376 244,392 250,420" fill="none" stroke="#9FB4D6" stroke-opacity=".5" stroke-width="2"/>
+    <rect x="186" y="392" width="28" height="22" rx="4" fill="#FFB13B"/>
+    <path d="M191,392 v-7 a9,9 0 0 1 18,0 v7" fill="none" stroke="#FFB13B" stroke-width="4"/>
+    <circle cx="200" cy="402" r="3.5" fill="#22324F"/>
+    <rect x="180" y="300" width="40" height="52" rx="8" fill="#4F6690" stroke="#22324F" stroke-width="2"/>
+    <path d="M200,104 L286,130 C288,212 270,284 200,320 C130,284 112,212 114,130 Z" fill="url(#kk-celik)" stroke="#22324F" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M200,120 L272,142 C272,210 258,270 200,302" fill="none" stroke="#EAF2FF" stroke-opacity=".5" stroke-width="2"/>
+    <g id="anten-isik"><circle cx="200" cy="148" r="10" fill="#47E58F" filter="url(#kk-parilti)"/><circle cx="200" cy="148" r="14" fill="none" stroke="#22324F" stroke-width="2"/></g>
+    <rect x="136" y="176" width="128" height="46" rx="23" fill="#0A1226" stroke="#FFB13B" stroke-opacity=".55" stroke-width="2"/>
+    <g id="goz-sol"><rect x="156" y="190" width="34" height="18" rx="9" fill="#FFC45E" filter="url(#kk-parilti)"/></g>
+    <g id="goz-sag"><rect x="210" y="190" width="34" height="18" rx="9" fill="#FFC45E" filter="url(#kk-parilti)"/></g>
+    <rect id="dusunce" x="140" y="180" width="8" height="38" rx="4" fill="#47E58F" fill-opacity=".85"/>
+    <g id="agiz" fill="#FFB13B" filter="url(#kk-parilti)"><rect class="cubuk" style="--k:0.5" x="157.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:0.8" x="170.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:1.0" x="183.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:0.9" x="196.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:1.0" x="209.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:0.8" x="222.5" y="246" width="7" height="28" rx="3.5"/><rect class="cubuk" style="--k:0.5" x="235.5" y="246" width="7" height="28" rx="3.5"/></g>
+    <g id="soru-isareti"><circle cx="330" cy="98" r="28" fill="#0A1226" stroke="#FFB13B" stroke-width="2.5"/><text x="330" y="112" text-anchor="middle" font-family="'Chakra Petch', sans-serif" font-weight="600" font-size="40" fill="#FFB13B">?</text></g>
+    <g class="dusunce-hex" fill="#47E58F"><path d="M306.1,113.5 L300,117 L293.9,113.5 L293.9,106.5 L300,103 L306.1,106.5 Z"/><path d="M326.7,89 L318,94 L309.3,89 L309.3,79 L318,74 L326.7,79 Z"/><path d="M353.3,58.5 L342,65 L330.7,58.5 L330.7,45.5 L342,39 L353.3,45.5 Z"/></g>
+    <g id="uyku" font-family="'Chakra Petch', sans-serif" font-weight="600" fill="#C9D8EE"><text x="298" y="116" font-size="20">z</text><text x="316" y="90" font-size="28">z</text><text x="338" y="58" font-size="36">z</text></g>
+  </g>
+</svg>

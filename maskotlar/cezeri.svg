@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Cezerî: pirinç otomat">
+  <defs>
+    <linearGradient id="cz-pirinc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2D493"/><stop offset=".45" stop-color="#D3A251"/><stop offset="1" stop-color="#8E5E22"/>
+    </linearGradient>
+    <linearGradient id="cz-pirinc-yan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9A6726"/><stop offset=".5" stop-color="#E9C47D"/><stop offset="1" stop-color="#9A6726"/>
+    </linearGradient>
+    <linearGradient id="cz-kubbe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3C6FB8"/><stop offset="1" stop-color="#173A73"/>
+    </linearGradient>
+    <radialGradient id="cz-cam" cx=".38" cy=".35" r=".75">
+      <stop offset="0" stop-color="#B9FFF4"/><stop offset=".45" stop-color="#3CC7B5"/><stop offset="1" stop-color="#0F5B5A"/>
+    </radialGradient>
+    <radialGradient id="cz-isik" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#E9FFF9"/><stop offset=".5" stop-color="#58E0CC"/><stop offset="1" stop-color="#58E0CC" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cz-goz-sol-kirp"><circle cx="160" cy="218" r="21"/></clipPath>
+    <clipPath id="cz-goz-sag-kirp"><circle cx="240" cy="218" r="21"/></clipPath>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; }
+    .kapak { transform: translateY(-46px); } }
+  </style>
+  <g id="maskot">
+    <g class="cerceve">
+      <path d="M328.7,350.7 L71.3,350.7 L71.3,93.3 L328.7,93.3 Z M382,222 L200,404 L18,222 L200,40 Z" fill="none" stroke="#D3A251" stroke-opacity=".28" stroke-width="2"/>
+      <path d="M306.1,328.1 L93.9,328.1 L93.9,115.9 L306.1,115.9 Z M350,222 L200,372 L50,222 L200,72 Z" fill="none" stroke="#D3A251" stroke-opacity=".14" stroke-width="1.5"/>
+    </g>
+    <g id="ses-dalgasi" fill="none" stroke="#58E0CC" stroke-linecap="round" stroke-width="4">
+      <path d="M352,198 Q366,236 352,274"/><path d="M370,184 Q390,236 370,288" stroke-opacity=".6"/>
+      <path d="M48,198 Q34,236 48,274"/><path d="M30,184 Q10,236 30,288" stroke-opacity=".6"/>
+    </g>
+    <g id="disli">
+      <path class="tekerlek" d="M135.7,231.8 L143.9,233.3 L143.9,238.7 L135.7,240.2 L133.6,248.2 L139.9,253.6 L137.2,258.3 L129.4,255.5 L123.5,261.4 L126.3,269.2 L121.6,271.9 L116.2,265.6 L108.2,267.7 L106.7,275.9 L101.3,275.9 L99.8,267.7 L91.8,265.6 L86.4,271.9 L81.7,269.2 L84.5,261.4 L78.6,255.5 L70.8,258.3 L68.1,253.6 L74.4,248.2 L72.3,240.2 L64.1,238.7 L64.1,233.3 L72.3,231.8 L74.4,223.8 L68.1,218.4 L70.8,213.7 L78.6,216.5 L84.5,210.6 L81.7,202.8 L86.4,200.1 L91.8,206.4 L99.8,204.3 L101.3,196.1 L106.7,196.1 L108.2,204.3 L116.2,206.4 L121.6,200.1 L126.3,202.8 L123.5,210.6 L129.4,216.5 L137.2,213.7 L139.9,218.4 L133.6,223.8 Z M114,236 A10,10 0 1 0 94,236 A10,10 0 1 0 114,236 Z" fill="url(#cz-pirinc-yan)" stroke="#6E4716" stroke-width="1.5" fill-rule="evenodd"/>
+      <path class="tekerlek ters" d="M327.7,231.8 L335.9,233.3 L335.9,238.7 L327.7,240.2 L325.6,248.2 L331.9,253.6 L329.2,258.3 L321.4,255.5 L315.5,261.4 L318.3,269.2 L313.6,271.9 L308.2,265.6 L300.2,267.7 L298.7,275.9 L293.3,275.9 L291.8,267.7 L283.8,265.6 L278.4,271.9 L273.7,269.2 L276.5,261.4 L270.6,255.5 L262.8,258.3 L260.1,253.6 L266.4,248.2 L264.3,240.2 L256.1,238.7 L256.1,233.3 L264.3,231.8 L266.4,223.8 L260.1,218.4 L262.8,213.7 L270.6,216.5 L276.5,210.6 L273.7,202.8 L278.4,200.1 L283.8,206.4 L291.8,204.3 L293.3,196.1 L298.7,196.1 L300.2,204.3 L308.2,206.4 L313.6,200.1 L318.3,202.8 L315.5,210.6 L321.4,216.5 L329.2,213.7 L331.9,218.4 L325.6,223.8 Z M306,236 A10,10 0 1 0 286,236 A10,10 0 1 0 306,236 Z" fill="url(#cz-pirinc-yan)" stroke="#6E4716" stroke-width="1.5" fill-rule="evenodd"/>
+      <path class="tekerlek kucuk" d="M344.8,297.4 L349.9,298.2 L349.9,301.8 L344.8,302.6 L343,307.5 L346.4,311.4 L344.1,314.2 L339.6,311.5 L335.1,314.1 L335.2,319.3 L331.7,319.9 L330,315 L324.9,314.1 L321.6,318.2 L318.5,316.3 L320.4,311.5 L317,307.5 L311.9,308.5 L310.7,305.1 L315.2,302.6 L315.2,297.4 L310.7,294.9 L311.9,291.5 L317,292.5 L320.4,288.5 L318.5,283.7 L321.6,281.8 L324.9,285.9 L330,285 L331.7,280.1 L335.2,280.7 L335.1,285.9 L339.6,288.5 L344.1,285.8 L346.4,288.6 L343,292.5 Z M335,300 A5,5 0 1 0 325,300 A5,5 0 1 0 335,300 Z" fill="#B98A3E" stroke="#6E4716" stroke-width="1.2" fill-rule="evenodd"/>
+    </g>
+    <!-- gövde ve yaka -->
+    <path d="M96,420 C104,372 136,350 172,344 L228,344 C264,350 296,372 304,420 Z" fill="url(#cz-pirinc)" stroke="#6E4716" stroke-width="2"/>
+    <path d="M128,420 C134,388 160,370 200,368 C240,370 266,388 272,420" fill="none" stroke="#6E4716" stroke-opacity=".5" stroke-width="1.5"/>
+    <path d="M200,366 L204.7,371.7 L212,371 L211.3,378.3 L217,383 L211.3,387.7 L212,395 L204.7,394.3 L200,400 L195.3,394.3 L188,395 L188.7,387.7 L183,383 L188.7,378.3 L188,371 L195.3,371.7 Z" fill="#2D9C92" stroke="#F2D493" stroke-width="2"/>
+    <circle cx="200" cy="383" r="5" fill="#F2D493"/>
+    <rect x="174" y="314" width="52" height="34" rx="6" fill="#9A6726" stroke="#6E4716" stroke-width="1.5"/>
+    <path d="M174,326 H226 M174,336 H226" stroke="#6E4716" stroke-opacity=".6" stroke-width="1.5"/>
+    <!-- baş -->
+    <path d="M122,198 C122,150 156,124 200,124 C244,124 278,150 278,198 L278,252 C278,294 246,322 200,322 C154,322 122,294 122,252 Z"
+          fill="url(#cz-pirinc)" stroke="#6E4716" stroke-width="2.5"/>
+    <path d="M140,206 C140,166 166,144 200,144 C234,144 260,166 260,206" fill="none" stroke="#FFF1C9" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M140,257 L141.9,261.4 L146.4,259.6 L144.6,264.1 L149,266 L144.6,267.9 L146.4,272.4 L141.9,270.6 L140,275 L138.1,270.6 L133.6,272.4 L135.4,267.9 L131,266 L135.4,264.1 L133.6,259.6 L138.1,261.4 Z" fill="none" stroke="#8E5E22" stroke-opacity=".7" stroke-width="1.2"/>
+    <path d="M260,257 L261.9,261.4 L266.4,259.6 L264.6,264.1 L269,266 L264.6,267.9 L266.4,272.4 L261.9,270.6 L260,275 L258.1,270.6 L253.6,272.4 L255.4,267.9 L251,266 L255.4,264.1 L253.6,259.6 L258.1,261.4 Z" fill="none" stroke="#8E5E22" stroke-opacity=".7" stroke-width="1.2"/>
+    <!-- kavuk / kubbe -->
+    <path d="M128,176 C126,118 160,80 200,64 C240,80 274,118 272,176 Z" fill="url(#cz-kubbe)" stroke="#6E4716" stroke-width="2.5"/>
+    <path d="M200,64 C171.4,96 148,130 147,170" fill="none" stroke="#E7C27A" stroke-opacity=".55" stroke-width="2"/><path d="M200,64 C185.7,96 174,130 173.5,170" fill="none" stroke="#E7C27A" stroke-opacity=".55" stroke-width="2"/><path d="M200,64 C200,96 200,130 200,170" fill="none" stroke="#E7C27A" stroke-opacity=".55" stroke-width="2"/><path d="M200,64 C214.3,96 226,130 226.5,170" fill="none" stroke="#E7C27A" stroke-opacity=".55" stroke-width="2"/><path d="M200,64 C228.6,96 252,130 253,170" fill="none" stroke="#E7C27A" stroke-opacity=".55" stroke-width="2"/>
+    <path d="M124,166 Q200,152 276,166 L278,184 Q200,170 122,184 Z" fill="url(#cz-pirinc-yan)" stroke="#6E4716" stroke-width="1.5"/>
+    <circle cx="140" cy="174" r="2.6" fill="#2D7C78"/><circle cx="152" cy="174" r="2.6" fill="#2D7C78"/><circle cx="164" cy="174" r="2.6" fill="#2D7C78"/><circle cx="176" cy="174" r="2.6" fill="#2D7C78"/><circle cx="188" cy="174" r="2.6" fill="#2D7C78"/><circle cx="200" cy="174" r="2.6" fill="#2D7C78"/><circle cx="212" cy="174" r="2.6" fill="#2D7C78"/><circle cx="224" cy="174" r="2.6" fill="#2D7C78"/><circle cx="236" cy="174" r="2.6" fill="#2D7C78"/><circle cx="248" cy="174" r="2.6" fill="#2D7C78"/><circle cx="260" cy="174" r="2.6" fill="#2D7C78"/>
+    <path d="M200,64 V40" stroke="#C9973F" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="200" cy="52" r="5" fill="#E7C27A" stroke="#6E4716" stroke-width="1"/>
+    <g id="anten-isik">
+      <circle class="hale" cx="200" cy="30" r="20" fill="url(#cz-isik)"/>
+      <circle cx="200" cy="30" r="8" fill="#7FF0DD" stroke="#E7C27A" stroke-width="2"/>
+    </g>
+    <!-- kaşlar -->
+    <path class="kas" d="M134,190 Q160,178 184,188" fill="none" stroke="#6E4716" stroke-width="4" stroke-linecap="round"/>
+    <path class="kas" d="M216,188 Q240,178 266,190" fill="none" stroke="#6E4716" stroke-width="4" stroke-linecap="round"/>
+    <!-- gözler: pirinç çerçeve, cam, kapak -->
+    <g id="goz-sol">
+      <circle cx="160" cy="218" r="27" fill="#6E4716"/>
+      <circle cx="160" cy="218" r="24" fill="url(#cz-pirinc-yan)"/>
+      <circle cx="160" cy="218" r="21" fill="#14202E"/>
+      <g class="bebek"><circle cx="160" cy="218" r="14" fill="url(#cz-cam)"/><circle cx="155" cy="212" r="4" fill="#fff" fill-opacity=".85"/></g>
+      <g clip-path="url(#cz-goz-sol-kirp)"><rect class="kapak" x="136" y="196" width="48" height="44" fill="url(#cz-pirinc)"/></g>
+    </g>
+    <g id="goz-sag">
+      <circle cx="240" cy="218" r="27" fill="#6E4716"/>
+      <circle cx="240" cy="218" r="24" fill="url(#cz-pirinc-yan)"/>
+      <circle cx="240" cy="218" r="21" fill="#14202E"/>
+      <g class="bebek"><circle cx="240" cy="218" r="14" fill="url(#cz-cam)"/><circle cx="235" cy="212" r="4" fill="#fff" fill-opacity=".85"/></g>
+      <g clip-path="url(#cz-goz-sag-kirp)"><rect class="kapak" x="216" y="196" width="48" height="44" fill="url(#cz-pirinc)"/></g>
+    </g>
+    <path d="M200,232 L194,256 L206,256" fill="none" stroke="#8E5E22" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- ağız: ızgaralı yarık -->
+    <g id="agiz">
+      <rect x="168" y="268" width="64" height="22" rx="11" fill="#14202E" stroke="#6E4716" stroke-width="2"/>
+      <rect x="180" y="270" width="3" height="18" rx="1.5" fill="#C9973F"/><rect x="189" y="270" width="3" height="18" rx="1.5" fill="#C9973F"/><rect x="198" y="270" width="3" height="18" rx="1.5" fill="#C9973F"/><rect x="207" y="270" width="3" height="18" rx="1.5" fill="#C9973F"/><rect x="216" y="270" width="3" height="18" rx="1.5" fill="#C9973F"/>
+    </g>
+    <g id="soru-isareti">
+      <circle cx="334" cy="104" r="30" fill="#14202E" stroke="#D3A251" stroke-width="2.5"/>
+      <text x="334" y="119" text-anchor="middle" font-family="Alegreya, serif" font-weight="700" font-size="44" fill="#F2D493">?</text>
+    </g>
+    <g id="dusunce" fill="#58E0CC">
+      <circle cx="300" cy="120" r="6"/><circle cx="318" cy="96" r="9"/><circle cx="342" cy="66" r="13"/>
+    </g>
+    <g id="uyku" font-family="Alegreya, serif" font-weight="700" fill="#F2D493">
+      <text x="300" y="118" font-size="22">z</text><text x="318" y="92" font-size="30">z</text><text x="342" y="60" font-size="40">z</text>
+    </g>
+  </g>
+</svg>

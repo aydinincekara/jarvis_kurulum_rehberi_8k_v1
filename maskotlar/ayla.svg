@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Ayla: android asistan">
+  <defs>
+    <linearGradient id="ay-sac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CDB9FF"/><stop offset=".5" stop-color="#8E66C9"/><stop offset="1" stop-color="#4A2668"/>
+    </linearGradient>
+    <linearGradient id="ay-ten" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF7F4"/><stop offset=".7" stop-color="#F3E3E6"/><stop offset="1" stop-color="#DCC6D6"/>
+    </linearGradient>
+    <linearGradient id="ay-altin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7C9B6"/><stop offset=".5" stop-color="#D98F7A"/><stop offset="1" stop-color="#A9604F"/>
+    </linearGradient>
+    <radialGradient id="ay-iris" cx=".5" cy=".45" r=".6">
+      <stop offset="0" stop-color="#F2FBFF"/><stop offset=".35" stop-color="#9BE3F2"/><stop offset="1" stop-color="#5B4DB0"/>
+    </radialGradient>
+    <radialGradient id="ay-yanak" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#F2A3A8" stop-opacity=".55"/><stop offset="1" stop-color="#F2A3A8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ay-isik" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#C6B4FF"/><stop offset="1" stop-color="#C6B4FF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ay-goz-sol-kirp"><path d="M146,214 Q164,196 184,212 Q164,226 146,214 Z"/></clipPath>
+    <clipPath id="ay-goz-sag-kirp"><path d="M216,212 Q236,196 254,214 Q236,226 216,212 Z"/></clipPath>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; } }
+  </style>
+  <g id="maskot">
+    <g id="disli" fill="none" stroke="url(#ay-altin)">
+      <ellipse class="halka" cx="200" cy="96" rx="96" ry="22" stroke-width="3"/>
+      <ellipse class="halka ince" cx="200" cy="96" rx="112" ry="27" stroke-width="1.2" stroke-opacity=".6" stroke-dasharray="3 9"/>
+    </g>
+    <!-- saçın arka kısmı -->
+    <path d="M108,196 C100,120 150,82 206,84 C266,86 306,128 296,206 C292,252 300,292 312,318 C284,324 262,312 252,292 L148,292 C138,312 116,324 88,318 C102,290 112,250 108,196 Z"
+          fill="url(#ay-sac)"/>
+    <!-- boyun ve omuzlar -->
+    <path d="M176,300 L176,344 L224,344 L224,300 Z" fill="url(#ay-ten)"/>
+    <path d="M176,318 H224 M176,330 H224" stroke="url(#ay-altin)" stroke-width="2"/>
+    <path d="M86,420 C96,374 140,352 180,346 L220,346 C260,352 304,374 314,420 Z" fill="#3B2350" stroke="url(#ay-altin)" stroke-width="2"/>
+    <path d="M150,420 C156,386 176,366 200,364 C224,366 244,386 250,420" fill="none" stroke="url(#ay-altin)" stroke-width="1.5" stroke-opacity=".7"/>
+    <circle cx="200" cy="378" r="6" fill="#C6B4FF"/>
+    <!-- yüz -->
+    <path d="M200,124 C246,124 270,158 270,206 C270,262 240,306 200,308 C160,306 130,262 130,206 C130,158 154,124 200,124 Z"
+          fill="url(#ay-ten)"/>
+    <path d="M146,252 C150,268 158,280 168,290" fill="none" stroke="#D98F7A" stroke-opacity=".55" stroke-width="1.4"/>
+    <path d="M254,252 C250,268 242,280 232,290" fill="none" stroke="#D98F7A" stroke-opacity=".55" stroke-width="1.4"/>
+    <ellipse cx="154" cy="248" rx="18" ry="10" fill="url(#ay-yanak)"/>
+    <ellipse cx="246" cy="248" rx="18" ry="10" fill="url(#ay-yanak)"/>
+    <!-- saçın ön kısmı (kakül) -->
+    <path d="M128,206 C122,150 158,112 210,112 C252,114 280,146 274,196 C258,170 236,150 206,146 C178,160 150,176 128,206 Z" fill="url(#ay-sac)"/>
+    <path d="M168,128 C200,118 236,124 258,146" fill="none" stroke="#F1E9FF" stroke-opacity=".55" stroke-width="3" stroke-linecap="round"/>
+    <!-- kulaklık -->
+    <circle cx="128" cy="230" r="17" fill="url(#ay-altin)"/>
+    <circle cx="128" cy="230" r="10" fill="#2A1630"/>
+    <g id="anten-isik"><circle class="hale" cx="128" cy="230" r="18" fill="url(#ay-isik)"/><circle cx="128" cy="230" r="6" fill="#E3D9FF"/></g>
+    <!-- kaşlar -->
+    <path class="kas" d="M146,192 Q164,182 184,190" fill="none" stroke="#5B3478" stroke-width="3.5" stroke-linecap="round"/>
+    <path class="kas" d="M216,190 Q236,182 254,192" fill="none" stroke="#5B3478" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- gözler -->
+    <g id="goz-sol">
+      <path d="M146,214 Q164,196 184,212 Q164,226 146,214 Z" fill="#FBF8FF"/>
+      <g clip-path="url(#ay-goz-sol-kirp)"><g class="bebek"><circle cx="165" cy="211" r="10" fill="url(#ay-iris)"/><circle cx="165" cy="211" r="4" fill="#2A1630"/><circle cx="162" cy="207" r="2.6" fill="#fff"/></g></g>
+      <path d="M142,212 Q164,192 186,210 L190,206" fill="none" stroke="#3B2350" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g id="goz-sag">
+      <path d="M216,212 Q236,196 254,214 Q236,226 216,212 Z" fill="#FBF8FF"/>
+      <g clip-path="url(#ay-goz-sag-kirp)"><g class="bebek"><circle cx="235" cy="211" r="10" fill="url(#ay-iris)"/><circle cx="235" cy="211" r="4" fill="#2A1630"/><circle cx="232" cy="207" r="2.6" fill="#fff"/></g></g>
+      <path d="M258,212 Q236,192 214,210 L210,206" fill="none" stroke="#3B2350" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <path d="M200,226 C198,240 196,248 192,252 Q200,256 206,252" fill="none" stroke="#C99AA4" stroke-width="2" stroke-linecap="round"/>
+    <!-- ağız: dudaklar sabit, içi açılır -->
+    <ellipse id="agiz" cx="200" cy="276" rx="14" ry="7" fill="#5A2338"/>
+    <path class="ust-dudak" d="M178,270 Q189,265 200,269 Q211,265 222,270 Q200,279 178,270 Z" fill="#D9737F"/>
+    <path class="alt-dudak" d="M181,273 Q200,293 219,273 Q200,282 181,273 Z" fill="#C85E6C"/>
+    <path d="M175,268 q3,4 7,4 M225,268 q-3,4 -7,4" fill="none" stroke="#C99AA4" stroke-width="1.6" stroke-linecap="round"/>
+    <g id="ses-dalgasi" fill="none" stroke="#C6B4FF" stroke-width="3.5" stroke-linecap="round">
+      <path d="M100,208 Q90,230 100,252"/><path d="M84,196 Q70,230 84,264" stroke-opacity=".6"/>
+    </g>
+    <g id="soru-isareti">
+      <circle cx="320" cy="140" r="28" fill="#2A1630" stroke="url(#ay-altin)" stroke-width="2.5"/>
+      <text x="320" y="154" text-anchor="middle" font-family="Sora, sans-serif" font-weight="600" font-size="38" fill="#F7C9B6">?</text>
+    </g>
+    <g id="dusunce" fill="#E3D9FF">
+      <path d="M300,150 l3,8 8,3 -8,3 -3,8 -3,-8 -8,-3 8,-3 z"/>
+      <path d="M322,120 l4,10 10,4 -10,4 -4,10 -4,-10 -10,-4 10,-4 z"/>
+      <path d="M346,84 l5,13 13,5 -13,5 -5,13 -5,-13 -13,-5 13,-5 z"/>
+    </g>
+    <g id="uyku" font-family="Sora, sans-serif" font-weight="600" fill="#E3D9FF">
+      <text x="294" y="150" font-size="20">z</text><text x="312" y="124" font-size="28">z</text><text x="334" y="92" font-size="36">z</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Kaan: insansı avatar">
+  <defs>
+    <linearGradient id="ka-ten" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3C8A4"/><stop offset="1" stop-color="#DDA27C"/>
+    </linearGradient>
+    <linearGradient id="ka-sac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5A3F30"/><stop offset="1" stop-color="#2E211B"/>
+    </linearGradient>
+    <linearGradient id="ka-kapsonlu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FA592"/><stop offset="1" stop-color="#23695E"/>
+    </linearGradient>
+    <radialGradient id="ka-isik" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#E6FFF4"/><stop offset=".5" stop-color="#7FE0B5"/><stop offset="1" stop-color="#7FE0B5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; } }
+  </style>
+  <g id="maskot">
+    <path d="M78,420 C88,366 138,340 200,338 C262,340 312,366 322,420 Z" fill="url(#ka-kapsonlu)"/>
+    <path d="M138,350 C150,376 176,388 200,388 C224,388 250,376 262,350" fill="none" stroke="#1D574E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M200,388 V420" stroke="#1D574E" stroke-width="4"/>
+    <path d="M178,372 v28 M222,372 v28" stroke="#E6FFF4" stroke-width="3" stroke-linecap="round"/>
+    <path d="M178,286 L178,342 Q200,356 222,342 L222,286 Z" fill="#D8996F"/>
+    <ellipse cx="126" cy="218" rx="12" ry="20" fill="#E6AF88"/>
+    <ellipse cx="274" cy="218" rx="12" ry="20" fill="#E6AF88"/>
+    <path d="M200,118 C250,118 278,156 278,206 C278,250 270,282 244,300 Q222,314 200,314 Q178,314 156,300 C130,282 122,250 122,206 C122,156 150,118 200,118 Z" fill="url(#ka-ten)"/>
+    <path d="M140,262 C150,292 176,310 200,312 C224,310 250,292 260,262 C250,284 228,300 200,302 C172,300 150,284 140,262 Z" fill="#9C6B50" fill-opacity=".22"/>
+    <path d="M122,206 C110,132 150,86 206,84 C232,82 262,92 276,116 C290,140 288,172 280,200 C274,176 262,160 246,152 C238,140 222,132 204,134 C180,136 168,150 150,156 C136,166 126,184 122,206 Z" fill="url(#ka-sac)"/>
+    <path d="M176,102 C204,90 240,94 264,116" fill="none" stroke="#8A6650" stroke-width="3" stroke-linecap="round"/>
+    <path class="kas" d="M146,184 L184,180" fill="none" stroke="#3A2A22" stroke-width="7" stroke-linecap="round"/>
+    <path class="kas" d="M216,180 L254,184" fill="none" stroke="#3A2A22" stroke-width="7" stroke-linecap="round"/>
+    <g id="goz-sol">
+      <path d="M148,206 Q166,192 186,206 Q166,218 148,206 Z" fill="#fff"/>
+      <g class="bebek"><circle cx="167" cy="205" r="8" fill="#5A3A22"/><circle cx="167" cy="205" r="4" fill="#1C120C"/><circle cx="164" cy="202" r="2.2" fill="#fff"/></g>
+      <path d="M148,205 Q166,194 186,205" fill="none" stroke="#3A2A22" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <g id="goz-sag">
+      <path d="M214,206 Q234,192 252,206 Q234,218 214,206 Z" fill="#fff"/>
+      <g class="bebek"><circle cx="233" cy="205" r="8" fill="#5A3A22"/><circle cx="233" cy="205" r="4" fill="#1C120C"/><circle cx="230" cy="202" r="2.2" fill="#fff"/></g>
+      <path d="M214,205 Q234,194 252,205" fill="none" stroke="#3A2A22" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <path d="M200,214 C197,232 194,240 190,244 Q200,250 210,244" fill="none" stroke="#B87A57" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse id="agiz" cx="200" cy="270" rx="16" ry="8" fill="#5E2A24"/>
+    <path d="M180,264 Q200,277 220,264" fill="none" stroke="#9A5A44" stroke-width="2.6" stroke-linecap="round"/>
+    <!-- kulaklık -->
+    <path d="M114,206 C106,108 294,108 286,206" fill="none" stroke="#273240" stroke-width="9" stroke-linecap="round"/>
+    <rect x="102" y="190" width="26" height="54" rx="12" fill="#273240"/>
+    <rect x="272" y="190" width="26" height="54" rx="12" fill="#273240"/>
+    <path d="M116,240 Q126,292 168,294" fill="none" stroke="#273240" stroke-width="5" stroke-linecap="round"/>
+    <g id="anten-isik"><circle class="hale" cx="172" cy="294" r="14" fill="url(#ka-isik)"/><circle cx="172" cy="294" r="6" fill="#7FE0B5"/></g>
+    <g id="ses-dalgasi" fill="none" stroke="#7FE0B5" stroke-width="4" stroke-linecap="round">
+      <path d="M316,196 Q330,232 316,268"/><path d="M334,182 Q354,232 334,282" stroke-opacity=".6"/>
+    </g>
+    <g id="soru-isareti"><circle cx="326" cy="110" r="28" fill="#14302C" stroke="#7FE0B5" stroke-width="2.5"/><text x="326" y="124" text-anchor="middle" font-family="Lexend, sans-serif" font-weight="600" font-size="40" fill="#F2C46D">?</text></g>
+    <g id="dusunce" fill="#E6FFF4"><circle cx="298" cy="132" r="6"/><circle cx="316" cy="106" r="9"/><circle cx="340" cy="74" r="13"/></g>
+    <g id="uyku" font-family="Lexend, sans-serif" font-weight="600" fill="#E6FFF4"><text x="296" y="132" font-size="20">z</text><text x="314" y="106" font-size="28">z</text><text x="336" y="74" font-size="36">z</text></g>
+  </g>
+</svg>

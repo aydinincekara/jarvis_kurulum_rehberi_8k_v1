@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-label="Pıtır: neşeli baykuş öğretmen">
+  <defs>
+    <linearGradient id="pt-govde" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC15E"/><stop offset="1" stop-color="#EE8530"/>
+    </linearGradient>
+    <linearGradient id="pt-kanat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9893A"/><stop offset="1" stop-color="#C9631F"/>
+    </linearGradient>
+    <radialGradient id="pt-yanak" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FF7A8A" stop-opacity=".6"/><stop offset="1" stop-color="#FF7A8A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>/* Varsayılan (durgun) görünüm; ekran durumlara göre canlandırır */ @layer varsayilan {
+    #soru-isareti, #dusunce, #uyku, #ses-dalgasi { opacity: 0; } }
+  </style>
+  <g id="maskot">
+    <ellipse class="golge" cx="200" cy="404" rx="92" ry="10" fill="#000" fill-opacity=".25"/>
+    <g fill="#F2A23A" stroke="#C9631F" stroke-width="2" stroke-linejoin="round">
+      <path d="M166,384 l-10,16 h8 l4,-8 l4,8 h8 l4,-8 l4,8 h6 l-10,-16 Z"/>
+      <path d="M214,384 l-10,16 h8 l4,-8 l4,8 h8 l4,-8 l4,8 h6 l-10,-16 Z"/>
+    </g>
+    <path class="kanat sol" d="M100,232 C64,256 60,322 98,350 C112,330 118,290 112,250 Z" fill="url(#pt-kanat)"/>
+    <path class="kanat sag" d="M300,232 C336,256 340,322 302,350 C288,330 282,290 288,250 Z" fill="url(#pt-kanat)"/>
+    <path d="M136,146 L118,92 L172,132 Z" fill="#E9893A"/>
+    <path d="M264,146 L282,92 L228,132 Z" fill="#E9893A"/>
+    <path d="M200,122 C286,122 318,200 312,270 C306,346 262,392 200,392 C138,392 94,346 88,270 C82,200 114,122 200,122 Z" fill="url(#pt-govde)"/>
+    <ellipse cx="200" cy="304" rx="74" ry="80" fill="#FFF1D6"/>
+    <g fill="none" stroke="#E8B77A" stroke-width="3" stroke-linecap="round"><path d="M151,262 Q161,274 171,262" /><path d="M177,262 Q187,274 197,262" /><path d="M203,262 Q213,274 223,262" /><path d="M229,262 Q239,274 249,262" /><path d="M140,290 Q150,302 160,290" /><path d="M165,290 Q175,302 185,290" /><path d="M190,290 Q200,302 210,290" /><path d="M215,290 Q225,302 235,290" /><path d="M240,290 Q250,302 260,290" /><path d="M151,318 Q161,330 171,318" /><path d="M177,318 Q187,330 197,318" /><path d="M203,318 Q213,330 223,318" /><path d="M229,318 Q239,330 249,318" /><path d="M164,344 Q174,356 184,344" /><path d="M190,344 Q200,356 210,344" /><path d="M216,344 Q226,356 236,344" /></g>
+    <circle cx="158" cy="214" r="52" fill="#FFE6BC"/>
+    <circle cx="242" cy="214" r="52" fill="#FFE6BC"/>
+    <ellipse cx="124" cy="262" rx="20" ry="12" fill="url(#pt-yanak)"/>
+    <ellipse cx="276" cy="262" rx="20" ry="12" fill="url(#pt-yanak)"/>
+    <path class="kas" d="M122,170 Q156,152 190,168" fill="none" stroke="#B5561C" stroke-width="6" stroke-linecap="round"/>
+    <path class="kas" d="M210,168 Q244,152 278,170" fill="none" stroke="#B5561C" stroke-width="6" stroke-linecap="round"/>
+    <g id="goz-sol">
+      <circle cx="158" cy="214" r="36" fill="#fff" stroke="#E0A766" stroke-width="3"/>
+      <g class="bebek"><circle cx="160" cy="216" r="19" fill="#2B1B14"/><circle cx="153" cy="207" r="7" fill="#fff"/><circle cx="167" cy="224" r="3" fill="#fff"/></g>
+    </g>
+    <g id="goz-sag">
+      <circle cx="242" cy="214" r="36" fill="#fff" stroke="#E0A766" stroke-width="3"/>
+      <g class="bebek"><circle cx="240" cy="216" r="19" fill="#2B1B14"/><circle cx="233" cy="207" r="7" fill="#fff"/><circle cx="247" cy="224" r="3" fill="#fff"/></g>
+    </g>
+    <ellipse class="agiz-ic" cx="200" cy="266" rx="10" ry="11" fill="#7A2E1C"/>
+    <path id="agiz" d="M190,258 L210,258 L200,282 Z" fill="#E39A1E" stroke="#B5561C" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M186,246 L214,246 L200,270 Z" fill="#FFCB45" stroke="#B5561C" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- kep -->
+    <path d="M150,118 Q200,140 250,118 L250,134 Q200,158 150,134 Z" fill="#1F2A55"/>
+    <path d="M114,108 L200,76 L286,108 L200,140 Z" fill="#2B3A73" stroke="#1F2A55" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="200" cy="108" r="5" fill="#FFCB45"/>
+    <path class="puskul" d="M200,108 L268,118 L268,150" fill="none" stroke="#FFCB45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="anten-isik"><circle cx="268" cy="156" r="8" fill="#FFDC5E"/></g>
+    <g id="ses-dalgasi" fill="none" stroke="#FFCB45" stroke-width="4" stroke-linecap="round">
+      <path d="M338,200 Q352,236 338,272"/><path d="M356,186 Q376,236 356,286" stroke-opacity=".6"/>
+      <path d="M62,200 Q48,236 62,272"/><path d="M44,186 Q24,236 44,286" stroke-opacity=".6"/>
+    </g>
+    <g id="soru-isareti"><circle cx="330" cy="104" r="28" fill="#1F2A55" stroke="#FFCB45" stroke-width="2.5"/><text x="330" y="118" text-anchor="middle" font-family="Sora, sans-serif" font-weight="600" font-size="40" fill="#FFCB45">?</text></g>
+    <g id="dusunce" fill="#FFE6BC"><circle cx="300" cy="128" r="6"/><circle cx="318" cy="102" r="9"/><circle cx="342" cy="70" r="13"/></g>
+    <g id="uyku" font-family="Sora, sans-serif" font-weight="600" fill="#FFE6BC"><text x="298" y="128" font-size="20">z</text><text x="316" y="102" font-size="28">z</text><text x="338" y="70" font-size="36">z</text></g>
+  </g>
+</svg>
