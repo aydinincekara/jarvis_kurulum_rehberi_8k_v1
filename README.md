@@ -1,0 +1,1 @@
+# jarvis_kurulum_rehberi_8k_v1
